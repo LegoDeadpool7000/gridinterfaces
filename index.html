@@ -349,7 +349,7 @@ footer {
 <section id="ai-power" style="background: var(--bg); border-top: 1px solid var(--border);">
   <div class="container">
     <p class="section-label"> UPS control platform</p>
-    <h2>Every GPU cluster<br>needs a governor</h2>
+    <h2>Every GPU cluster<br>needs a controlled governor</h2>
     <p class="lead">Bulk synchronous training alternates a compute heavy phase near GPU TDP with an idle adjacent all reduce or checkpoint phase, every few seconds, across every GPU in the job at once. At scale that shows up as a single megawatt waveform hammering the facility feed  concentrated in the 0.2–3&nbsp;Hz band where transmission lines, inter plant coupling, and turbine generator shaft torsionals all have resonant modes. GridIS retasks the power converters already inside your UPS to cancel it with no additional hardware.</p>
 
     <div style="display:grid; grid-template-columns: 1.1fr 0.9fr; gap:2.5rem; margin-top:3rem; align-items:stretch;">
@@ -432,8 +432,8 @@ footer {
         <div class="feature-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 014-4h14"/><path d="M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg>
         </div>
-        <h3>Grid-on burst buffering</h3>
-        <p>While the grid is live, the same converters shuttle energy against the compute/communication cycle - charging on the idle phase, discharging on the compute phase using the UPS's own storage. No added hardware.</p>
+        <h3>Grid on burst buffering</h3>
+        <p>While the grid is live, the same converters shuttle energy against the compute/communication cycle - charging on the idle phase, discharging on the compute phase using the UPS's bess storage. No added hardware.</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">
